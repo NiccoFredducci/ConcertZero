@@ -27,9 +27,9 @@ You will see a local address in the terminal from which you will be able to acce
 `db.sqlite3` is the name of the database used by the app when you run it locally. It will contain 8 sample events: 4 created by a manager and 4 created by an admin.
 
 ### Demo accounts
-Username / Password:
-admin_demo / admin12345 (a sample account for a superuser)
-user_demo / user12345 (a sample account for a subscriber)
+Username / Password:<br>
+admin_demo / admin12345 (a sample account for a superuser)<br>
+user_demo / user12345 (a sample account for a subscriber)<br>
 manager_demo / manager12345 (a sample account for a manager)
 
 ### Online deployment

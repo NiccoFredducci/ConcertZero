@@ -17,6 +17,8 @@ Guests can log in or sign up (only as users, manager accounts have to be added m
 
 ### Installation instruction
   - Clone the repo: <pre>```git clone https://github.com/NiccoFredducci/RealMeets```</pre>
+    - **[WINDOWS only]** If you're on Windows use Windows subsystem for Linux: <pre>```wsl```</pre>
+  - Enter the directory: <pre>```cd RealMeets```</pre>
   - Create a virtual environment: <pre>```python -m venv venv```</pre>
   - Enter the virtual environment: <pre>```source venv/bin/activate```</pre>
   - Build: <pre>```pip install -r requirements.txt && python manage.py migrate && python create_users.py```</pre>

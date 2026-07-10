@@ -5,7 +5,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "eventsite.settings")
 django.setup()
 
 from django.contrib.auth.models import User
-
+from main.models import Profile
 
 def create_user(username, password, role=None, is_superuser=False):
     if User.objects.filter(username=username).exists():
